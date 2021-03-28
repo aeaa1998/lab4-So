@@ -8,7 +8,7 @@ int simple_init(void)
     printk(KERN_INFO "Loading Module\nOdioestaclase");
     return 0;
 }
-void simple_exit()
+void simple_exit(void)
 {
     printk(KERN_INFO "Removing Module\nOdioestaclase");
 }
