@@ -1,4 +1,4 @@
-obj-m += ej2.o
+obj-m += simple.o
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(shell pwd) modules
 clean:
